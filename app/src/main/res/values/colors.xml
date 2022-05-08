@@ -1,0 +1,6 @@
+<resources>
+    <color name="primary">#263238</color>
+    <color name="card_default">#3D3D3D</color>
+    <color name="card_selected">#ffaa3f</color>
+    <color name="selected">#455a64</color>
+</resources>

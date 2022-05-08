@@ -1,0 +1,96 @@
+{
+  "categories": {
+    "pccw": {
+      "name": "電訊盈科",
+      "channels": [
+        {
+          "name": "now新聞台",
+          "nowStream": "332",
+          "nowId": "332",
+          "origin": "hk"
+        },
+        {
+          "name": "now直播台",
+          "nowStream": "331",
+          "nowId": "331",
+          "origin": "hk"
+        },
+        {
+          "name": "ViuTV",
+          "nowStream": "099",
+          "origin": "hk"
+        }
+      ]
+    },
+    "rthk": {
+      "name": "香港電台",
+      "channels": [
+        {
+          "name": "港台電視31",
+          "urlStream": "https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8",
+          "origin": "hk"
+        },
+        {
+          "name": "港台電視32",
+          "urlStream": "https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8",
+          "origin": "hk"
+        }
+      ]
+    },
+    "cable": {
+      "name": "有線寬頻",
+      "channels": [
+        {
+          "name": "有線新聞台",
+          "cableStream": "_9",
+          "origin": "hk"
+        },
+        {
+          "name": "有線直播台",
+          "cableStream": "_10",
+          "origin": "hk"
+        },
+        {
+          "name": "香港開電視",
+          "urlStream": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8",
+          "origin": "hk"
+        }
+      ]
+    },
+    "international": {
+      "name": "其它",
+      "channels": [
+        {
+          "name": "BBC World News",
+          "fluxusStream": "BBC World News (GB) (Opt-1)",
+          "nowId": "320",
+          "origin": "gb"
+        },
+        {
+          "name": "Sky News",
+          "fluxusStream": "Sky News (HD)",
+          "nowId": "323",
+          "origin": "gb"
+        },
+        {
+          "name": "Bloomberg Television",
+          "fluxusStream": "Bloomberg Television (Opt-1)",
+          "nowId": "321",
+          "origin": "us"
+        },
+        {
+          "name": "NHK World",
+          "fluxusStream": "NHK World (JP) (Opt-2)",
+          "nowId": "328",
+          "origin": "jp"
+        },
+        {
+          "name": "Al Jazeera",
+          "fluxusStream": "Al Jazeera (QA) (Opt-1)",
+          "nowId": "325",
+          "origin": "qa"
+        }
+      ]
+    }
+  }
+}
